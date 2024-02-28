@@ -6,6 +6,12 @@
 
 About me
 
-Language and Tools
+### Language and Tools
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
+![NodeJS](https://img.shields.io/badge/NodeJS-E0FFFF?style=for-the-badge&logo=nodedotjs)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-808080?style=for-the-badge&logo=mongoDB)
+![JWT](https://img.shields.io/badge/JWT-FFD700?style=for-the-badge&logo=JSON+Web+Tokens)
 
 Follow me
