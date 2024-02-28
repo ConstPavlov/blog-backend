@@ -1,7 +1,10 @@
 import express from 'express';
 import multer from 'multer';
 import cors from 'cors';
+import dotenv from 'dotenv';
 import { fetchPost } from './middlewares/fetchPost.js';
+
+dotenv.config()
 
 import mongoose from 'mongoose';
 
@@ -17,7 +20,7 @@ import { checkAuth, handleValidatorErrors } from './utils/index.js';
 import { UserController, PostController, CommentController } from './controllers/index.js';
 
 mongoose
-  .connect('mongodb+srv://admin:qqqqq@cluster0.xmfpnea.mongodb.net/blog')
+  .connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.xmfpnea.mongodb.net/${process.env.DB_NAME}`)
   .then(() => console.log('DB ok'))
   .catch((err) => console.log('DB error', err));
 
