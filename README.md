@@ -2,7 +2,6 @@
 
 # Backend for my WebSite
 
----
 
 About me
 
@@ -14,4 +13,16 @@ About me
 ![MongoDB](https://img.shields.io/badge/MongoDB-808080?style=for-the-badge&logo=mongoDB)
 ![JWT](https://img.shields.io/badge/JWT-FFD700?style=for-the-badge&logo=JSON+Web+Tokens)
 
+___
+
 Follow me
+
+![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=Instagram)
+[![VKontakte](https://img.shields.io/badge/Вконтакте-000000?style=for-the-badge&logo=Vk)](https://vk.com/existenc61skaya)
+![Facebook](https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=Facebook)
+![Website](https://img.shields.io/badge/My--Website-000000?style=for-the-badge)
+![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&)
+
+___
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ConstPavlov&theme=tokyonight&show_icons=true)
