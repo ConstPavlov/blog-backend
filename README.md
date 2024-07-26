@@ -4,12 +4,14 @@
 
 This is one of my projects , it is blog site. This is the backend part, it will connect to the database and respond to frontend requests. Since the file .gitignore ignores dotenv, then please manually add the ".env" file with the following content:
 
-`   DB_PASSWORD=qqqqq
+    DB_PASSWORD=qqqqq
     DB_USER=admin
     DB_HOST=localhost
     DB_PORT=5432
     DB_NAME=blog
-    SECRET_KEY=secret123  `
+    SECRET_KEY=secret123
+
+If you haven't installed the frontend part, then go [here](https://github.com/ConstPavlov/blog-frontend)
 
 ---
 
