@@ -77,9 +77,9 @@ app.get('/comments', checkAuth, CommentController.getAllComments);
 app.get('/lastComments', checkAuth, CommentController.getLastComments);
 app.post('/add-comment:id', checkAuth, commentValidation, CommentController.createComment);
 
-const PORT = 4444;
 
-app.listen(PORT, (err) => {
+
+app.listen(process.env.PORT || 4444, (err) => {
   if (err) {
     return console.log(err);
   }

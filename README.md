@@ -10,7 +10,6 @@ My name is Konstantin! I am a web developer, I love writing web applications and
 
 ## Language and Tools
 
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript)
 ![NodeJS](https://img.shields.io/badge/NodeJS-E0FFFF?style=for-the-badge&logo=nodedotjs)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
