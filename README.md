@@ -1,10 +1,29 @@
-[![Header](<https://github.com/ConstPavlov/blog-backend/blob/master/assets/img-creo(1600%C2%A0%C3%97%20225%C2%A0%D0%BF%D0%B8%D0%BA%D1%81.).png>)](https://www.instagram.com/pavlov.konstanit/?igsh=MW1jdDNqOHhrMWZvcQ%3D%3D)
-
 # Backend for my WebSite
 
-## About me
+## About project
 
-My name is Konstantin! I am a web developer, I love writing web applications and learning new technologies. I am open to your suggestions, I will be happy to work on an interesting project.
+This is one of my projects , it is blog site. This is the backend part, it will connect to the database and respond to frontend requests. Since the file .gitignore ignores dotenv, then please manually add the ".env" file with the following content:
+
+    DB_PASSWORD=qqqqq
+    DB_USER=admin
+    DB_HOST=localhost
+    DB_PORT=5432
+    DB_NAME=blog
+    SECRET_KEY=secret123
+
+If you haven't installed the frontend part, then go [here](https://github.com/ConstPavlov/blog-frontend)
+
+---
+
+In the project directory, you can run:
+
+### `npm run start`
+
+The server with this port will start http://localhost:4444
+
+### `npm run start:dev`
+
+The server will start with such a port with nodemone support, which will allow refactoring in live mode http://localhost:4444
 
 ---
 
@@ -15,6 +34,13 @@ My name is Konstantin! I am a web developer, I love writing web applications and
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
 ![MongoDB](https://img.shields.io/badge/MongoDB-808080?style=for-the-badge&logo=mongoDB)
 ![JWT](https://img.shields.io/badge/JWT-FFD700?style=for-the-badge&logo=JSON+Web+Tokens)
+
+---
+
+
+## About me
+
+My name is Konstantin! I am a web developer, I love writing web applications and learning new technologies. I am open to your suggestions, I will be happy to work on an interesting project.
 
 ---
 
